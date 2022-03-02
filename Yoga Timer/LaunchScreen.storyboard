@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5RK-B8-fWf">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Launch View Controller-->
+        <scene sceneID="Wuh-3I-MgQ">
+            <objects>
+                <viewController id="5RK-B8-fWf" customClass="LaunchViewController" customModule="Yoga_Timer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pXQ-57-mi4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lotus.png" translatesAutoresizingMaskIntoConstraints="NO" id="Yk5-KK-QUx">
+                                <rect key="frame" x="87" y="144" width="240" height="618"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NFE-gA-y5e"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="NFE-gA-y5e" firstAttribute="bottom" secondItem="Yk5-KK-QUx" secondAttribute="bottom" constant="100" id="2VK-Bv-SHL"/>
+                            <constraint firstItem="NFE-gA-y5e" firstAttribute="trailing" secondItem="Yk5-KK-QUx" secondAttribute="trailing" constant="87" id="EQV-c8-qf7"/>
+                            <constraint firstItem="Yk5-KK-QUx" firstAttribute="top" secondItem="NFE-gA-y5e" secondAttribute="top" constant="100" id="Zzg-Z4-Gd4"/>
+                            <constraint firstItem="Yk5-KK-QUx" firstAttribute="leading" secondItem="NFE-gA-y5e" secondAttribute="leading" constant="87" id="lYP-1f-72C"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cGI-rt-cWe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-319" y="48"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="lotus.png" width="384" height="384"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
